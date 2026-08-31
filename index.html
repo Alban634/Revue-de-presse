@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>REVUEPRESS</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="logo" href="index.html">REVUE<span>PRESS</span></a>
+  <nav><a href="#recherche">Recherche</a><a href="admin.html">Ajouter</a></nav>
+</header>
+<main>
+<section class="hero" id="recherche">
+  <div class="papers" aria-hidden="true">
+    <div class="paper p1"><b>REVUE DE PRESSE</b><small>ACTUALITÉ • CULTURE • SPORT • MÉDIAS</small></div>
+    <div class="paper p2"><b>À LA UNE</b><small>INTERVIEWS • ARTICLES • DOSSIERS</small></div>
+    <div class="paper p3"><b>ARCHIVES</b><small>LES INFORMATIONS, CLASSÉES PAR PERSONNALITÉ</small></div>
+    <div class="paper p4"><b>PRESS</b><small>NEWS • PEOPLE • SPORT</small></div>
+  </div>
+  <div class="shade"></div>
+  <div class="hero-content">
+    <p class="kicker">REVUE • PRESSE • ARCHIVES</p>
+    <h1>Retrouvez ce qui<br><i>a été publié.</i></h1>
+    <p class="intro">Recherchez une personnalité pour consulter sa revue de presse.</p>
+    <div class="search"><span>⌕</span><input id="search" placeholder="Rechercher un nom..." autocomplete="off"><div id="suggestions"></div></div>
+  </div>
+</section>
+<section class="browse">
+  <p class="kicker dark">EXPLORER</p>
+  <h2>Personnalités</h2>
+  <div id="cards" class="cards"></div>
+  <p id="empty" class="empty">Aucune personnalité n'a encore été ajoutée.</p>
+</section>
+</main>
+<footer>REVUEPRESS</footer>
+<script src="app.js"></script>
+</body>
+</html>

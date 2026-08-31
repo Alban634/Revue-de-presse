@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Ajouter — REVUEPRESS</title><link rel="stylesheet" href="style.css"></head>
+<body><header class="topbar"><a class="logo" href="index.html">REVUE<span>PRESS</span></a><nav><a href="index.html">Accueil</a></nav></header>
+<main class="admin"><p class="kicker dark">ADMINISTRATION</p><h1>Ajouter un dossier</h1><p class="muted">Crée une personnalité puis ajoute autant d'articles que nécessaire.</p>
+<div class="form"><h2>Nouvelle personnalité</h2>
+<label>Nom<input id="name" placeholder="Nom complet"></label>
+<label>Catégorie<input id="category" placeholder="Sport, musique, cinéma..."></label>
+<label>Photo — URL<input id="photo" placeholder="https://..."></label>
+<label>Présentation<textarea id="bio" placeholder="Les informations que tu veux afficher"></textarea></label>
+<button id="addPerson">Créer le dossier</button></div>
+<div class="form"><h2>Ajouter un article</h2>
+<label>Dossier<select id="person"></select></label>
+<label>Titre<input id="title" placeholder="Titre de l'article"></label>
+<label>Média<input id="source" placeholder="Nom du média"></label>
+<label>Date<input id="date" type="date"></label>
+<label>Lien vers l'article<input id="url" placeholder="https://..."></label>
+<label>Image de l'article — URL<input id="image" placeholder="https://..."></label>
+<button id="addArticle">Ajouter l'article</button></div>
+<div class="note"><b>À savoir :</b> cette version de démonstration enregistre les données dans le navigateur. Pour la version publique finale, on pourra connecter une vraie base de données et un compte administrateur.</div>
+</main><footer>REVUEPRESS</footer><script src="app.js"></script></body></html>
